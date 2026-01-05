@@ -1,0 +1,44 @@
+{
+    "qwen3-vl-2b-caption": {
+        "path": "/pscd_dataset/annotation/local/no_ctx/qwen3-vl-2b-instruct_caption_20251221-133036.json",
+        "load_key": "simple_caption"
+    },
+    
+    "qwen3-vl-8b-caption": {
+        "path": "/pscd_dataset/annotation/local/no_ctx/Merge_qwen3-vl-8b-instruct_20251118-102609.json",
+        "load_key": "caption"
+    },
+    "qwen3-vl-8b-keyword": {
+        "path": "/pscd_dataset/game_annotation/auto/20251205-184636/label.json",
+        "load_key": "keyword"
+    },
+    "qwen3-vl-8b-caption_and_keyword": {
+        "path": {
+            "caption": "/pscd_dataset/annotation/local/no_ctx/Merge_qwen3-vl-8b-instruct_20251118-102609.json",
+            "keyword": "/pscd_dataset/game_annotation/auto/20251205-184636/label.json"
+        },
+        "load_key": "caption_and_keyword"
+    },
+    "qwen3-vl-2b-query": {
+        "path": "/pscd_dataset/sticker_checkpoint/LLaMA-Factory/lora/qwen3-vl-2b/20251209-163606-t1/checkpoint-200/20251210-160328-test/generated_predictions.json",
+        "load_key": "query"
+    },
+    "qwen3-vl-2b-caption_and_query": {
+        "path": {
+            "caption": "/pscd_dataset/annotation/local/no_ctx/Merge_qwen3-vl-8b-instruct_20251118-102609.json",
+            "query": "/pscd_dataset/sticker_checkpoint/LLaMA-Factory/lora/qwen3-vl-2b/20251209-163606-t1/checkpoint-200/20251210-160328-test/generated_predictions.json"
+        },
+        "load_key": "caption_and_query"
+    },
+    "qwen3-vl-2b-query-t2": {
+        "path": "/pscd_dataset/sticker_checkpoint/LLaMA-Factory/lora/qwen3-vl-2b/20251210-092721-t2/checkpoint-240/20251211-163700-test/generated_predictions.json",
+        "load_key": "query"
+    },
+    "qwen3-vl-2b-caption_and_query-t2": {
+        "path": {
+            "caption": "/pscd_dataset/annotation/local/no_ctx/Merge_qwen3-vl-8b-instruct_20251118-102609.json",
+            "query": "/pscd_dataset/sticker_checkpoint/LLaMA-Factory/lora/qwen3-vl-2b/20251210-092721-t2/checkpoint-240/20251211-163700-test/generated_predictions.json"
+        },
+        "load_key": "caption_and_query"
+    }
+}
